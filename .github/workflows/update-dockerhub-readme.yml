@@ -25,7 +25,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: provokingchaos/waterguru2mqtt
+          repository: provokingchaos/liquidctl-docker
           readme-filepath: ./README.md
           short-description: ${{ github.event.repository.description }}
           enable-url-completion: true
